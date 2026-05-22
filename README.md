@@ -11,21 +11,6 @@ bb torque registry list           # list services in active partition
 bb torque config set :labels :env :dev  # set active label context
 ```
 
-## Status
-
-| Module | Phase | Status |
-|--------|-------|--------|
-| [`core`](spec/core.md) | 0 | specced |
-| [`config`](spec/config.md) | 0 | specced |
-| [`registry`](spec/registry.md) | 0 | specced |
-| [`passe`](spec/passe.md) | 0 | specced |
-| [`dial`](spec/dial.md) | 0 | specced |
-| [`nool`](spec/nool.md) | 1 | specced |
-| `build` | 2 | planned |
-| `tf` | 2 | planned |
-| `logs` | 2 | planned |
-| `deploy` | 3 | planned |
-
 ## Quick start
 
 ```bash
