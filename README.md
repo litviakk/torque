@@ -5,7 +5,7 @@ Swiss army knife ops CLI for the infrastructure. Single `bb torque` entry point 
 ```bash
 bb torque nool mlflow --local     # can I reach mlflow from here?
 bb torque nool mlflow             # is mlflow healthy on the server?
-bb torque passe list              # list managed tokens + expiry
+bb torque passe cles              # list managed tokens + expiry
 bb torque passe rotate mlflow     # rotate mlflow API token
 bb torque registry list           # list services in active partition
 bb torque config set :labels :env :dev  # set active label context
