@@ -15,12 +15,12 @@ bb torque config set :labels :env :dev  # set active label context
 
 | Module | Phase | Status |
 |--------|-------|--------|
-| [`core`](core.md) | 0 | specced |
-| [`config`](config.md) | 0 | specced |
-| [`registry`](registry.md) | 0 | specced |
-| [`passe`](passe.md) | 0 | specced |
-| [`dial`](dial.md) | 0 | specced |
-| [`nool`](nool.md) | 1 | specced |
+| [`core`](spec/core.md) | 0 | specced |
+| [`config`](spec/config.md) | 0 | specced |
+| [`registry`](spec/registry.md) | 0 | specced |
+| [`passe`](spec/passe.md) | 0 | specced |
+| [`dial`](spec/dial.md) | 0 | specced |
+| [`nool`](spec/nool.md) | 1 | specced |
 | `build` | 2 | planned |
 | `tf` | 2 | planned |
 | `logs` | 2 | planned |
@@ -38,16 +38,15 @@ bb torque <module> --help
 
 | Doc | What it covers |
 |-----|---------------|
-| [torque.md](torque.md) | Vision, scope, delivery phases, architecture |
-| [core.md](core.md) | Dispatch, engine contract, ctx schema, agent contract |
-| [config.md](config.md) | `torque.edn` — init, get, set, list |
-| [registry.md](registry.md) | `registry.edn` — service metadata, label partitions |
-| [passe.md](passe.md) | Token lifecycle — create, rotate, revoke |
-| [nool.md](nool.md) | Diagnostic checks — local + SSH engines |
-| [dial.md](dial.md) | UX layer — spinners, rendering, JSON output |
-| [testing.md](testing.md) | Contract-driven test strategy |
-| [engines/](engines/) | Engine specs (nool local, nool SSH, TF registry) |
-| [arch-research.md](arch-research.md) | Architectural review findings + resolution status |
+| [torque.md](spec/torque.md) | Vision, scope, delivery phases, architecture |
+| [core.md](spec/core.md) | Dispatch, engine contract, ctx schema, agent contract |
+| [config.md](spec/config.md) | `torque.edn` — init, get, set, list |
+| [registry.md](spec/registry.md) | `registry.edn` — service metadata, label partitions |
+| [passe.md](spec/passe.md) | Token lifecycle — create, rotate, revoke |
+| [nool.md](spec/nool.md) | Diagnostic checks — local + SSH engines |
+| [dial.md](spec/dial.md) | UX layer — spinners, rendering, JSON output |
+| [testing.md](spec/testing.md) | Contract-driven test strategy |
+| [engines/](spec/engines/) | Engine specs (nool local, nool SSH, TF registry) |
 
 ## Key concepts
 
