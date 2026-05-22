@@ -15,12 +15,12 @@ bb torque config set :labels :env :dev  # set active label context
 
 | Module | Phase | Status |
 |--------|-------|--------|
-| `core` | 0 | specced |
-| `config` | 0 | specced |
-| `registry` | 0 | specced |
-| `passe` | 0 | specced |
-| `dial` | 0 | specced |
-| `nool` | 1 | specced |
+| [`core`](core.md) | 0 | specced |
+| [`config`](config.md) | 0 | specced |
+| [`registry`](registry.md) | 0 | specced |
+| [`passe`](passe.md) | 0 | specced |
+| [`dial`](dial.md) | 0 | specced |
+| [`nool`](nool.md) | 1 | specced |
 | `build` | 2 | planned |
 | `tf` | 2 | planned |
 | `logs` | 2 | planned |
